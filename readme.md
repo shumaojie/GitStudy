@@ -29,6 +29,9 @@
 
 ##利用github git shell登录github##
 ###提示####
-1. 利用github UI登录后，可直接使用git shell来登录
-2. 直接利用git add.   git commit -m "update" git push
-3. 如果仓库在github上，优先选择git shell
+1. 如果仓库在github上，优先选择git shell 
+2. 利用github UI登录后，可直接使用git shell来登录
+3. 直接利用git add.   git commit -m "update" git push
+4. 推荐先在github上建立仓库，然后利用git clone来实现
+
+
