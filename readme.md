@@ -4,7 +4,7 @@
 ###步骤###
 1. 设置用户名:git config --global user.name "shumaojie"
 2. 设置用户邮箱:git config --global user.email "yanjie.jw@163.com"
-3. 设置代理: git config --global http.proxy http://gateway.zscaler.net:80
+3. Staubli电脑设置代理: git config --global http.proxy http://gateway.zscaler.net:80
 4. 使用ssh登录:git config --global http.sslVerify false
 
 5. 启动ssh服务器:ssh-agent  bash
@@ -25,3 +25,10 @@
 ###重点说明###
 1. 每个仓库的local配置都保存在.git/config文件
 2. 没有本地local没有配置,就找全局global，没有全局global没有配置就找系统system
+
+
+##利用github git shell登录github##
+###提示####
+1. 利用github UI登录后，可直接使用git shell来登录
+2. 直接利用git add.   git commit -m "update" git push
+3. 如果仓库在github上，优先选择git shell
