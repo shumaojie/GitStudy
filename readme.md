@@ -48,4 +48,15 @@
 1. 配置密钥后,还是需要输入用户名问题
 2. 网站上一个公钥，是否所有电脑还共用一个私钥
 3. git和http的网址是否相同
-4. http.sslverify配置具体含义
+4. http.sslverify配置具体含义  
+
+5. fatal:The remote end  hung up unexpectedly
+6. error: fatal: WRPC failed: HTTP 400 curl 22 The requested URL returned error:400 Bad Request
+7. error: RPC failed; curl 56 SSL read: err三种方式 or
+8. ssh: connect to host bitbucket.org port 22: Connection timed out
+9. fatal:Could not read from remote repository
+10. bitbucket.org push不上去大的项目
+
+11. 访问有三种方式1.ssh 2.https 3.http
+
+
