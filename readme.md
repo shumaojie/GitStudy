@@ -55,7 +55,8 @@
 7. error: RPC failed; curl 56 SSL read: err三种方式 or
 8. ssh: connect to host bitbucket.org port 22: Connection timed out
 9. fatal:Could not read from remote repository
-10. bitbucket.org push不上去大的项目
+10. bitbucket.org push不上去大的项目,但是github可以
+
 
 11. 访问有三种方式1.ssh 2.https 3.http
 
