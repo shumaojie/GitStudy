@@ -64,8 +64,7 @@
 10. bitbucket.org push不上去大的项目,但是github可以
 
 
-11. 访问有三种方式1.ssh 2.https 3.http
-12. 在github shell中 D盘位置  /d/  
-13. 在github shell中可以通过一个 ./ 来执行脚本
+11. 访问有三种方式1.ssh 2.https 3.http 
+12. 在github shell中可以通过一个 ./ 来执行脚本
 
 
