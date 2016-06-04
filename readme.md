@@ -66,5 +66,9 @@
 
 11. 访问有三种方式1.ssh 2.https 3.http 
 12. 在github shell中可以通过一个 ./ 来执行脚本
+13. 在git log时可以通过q来退出这个命令行
+14. 在修改后的文件中，只能执行下git add.;git  commit ,git push后通过git reset  --hard  commit号来执行返回
+15. 当说两个文件冲突时，可以先开一个branch 
+16. 
 
 
