@@ -69,6 +69,6 @@
 13. 在git log时可以通过q来退出这个命令行
 14. 在修改后的文件中，只能执行下git add.;git  commit ,git push后通过git reset  --hard  commit号来执行返回
 15. 当说两个文件冲突时，可以先开一个branch 
-16. 
-
-
+16. git config --global  --list 里面global的设置都保存在C:\Documents and settings\用户名\.gitconfig文件夹下（windows）
+17.  git remote show  origin  查看远程origin
+18.  修改远程目录名称  git  remote  rename  origin   oldname  newname
