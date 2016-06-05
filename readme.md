@@ -19,7 +19,7 @@
 12. git init
 13. git add .
 14. git commit -m "remark"
-15. git remote add origin https://shumaojie@bitbucket.org/shumaojie/IssueSummary.git
+15. git remote add origin https://bitbucket.org/shumaojie/IssueSummary.git
 
 
 ###重点说明###
