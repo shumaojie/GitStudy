@@ -74,3 +74,4 @@
 18. 修改远程目录名称  git  remote  rename  origin   oldname  newname
 19. Recv failture: Connnection was reset  （原因：没有连上网络）
 
+
