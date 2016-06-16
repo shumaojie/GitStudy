@@ -80,4 +80,10 @@
 
 
 
+##本地已存在项目##
+1. 在网站上建立仓库
+2. 进入项目文件夹
+3. 执行git bash设置ssh登录中的步骤
+4. git push origin master
+
 
