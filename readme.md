@@ -11,7 +11,7 @@
 6. 生产私钥和公钥:$ ssh-keygen -t rsa -C "yanjie.jw@163.com"
 7. 添加私钥到本地:ssh-add ～/.ssh/id_rsa
 8. 添加私钥是否已经添加:ssh-add -l
-9. 把公钥和私钥复制出来到D: cp -R ~/.ssh/*  /d
+9. 把公钥和私钥复制出来到当前目录下: cp -R ~/.ssh/*  .
 10. 打开公钥id_rsa.pub,登录到对应的网站,输入公钥
 
 
@@ -61,7 +61,8 @@
 7. error: RPC failed; curl 56 SSL read: err三种方式 or
 8. ssh: connect to host bitbucket.org port 22: Connection timed out
 9. fatal:Could not read from remote repository
-10. bitbucket.org push不上去大的项目,但是github可以
+10. bitbucket.org/coding.net  push不上去大的项目,但是github可以
+11. fatal: unable to access '':the requested URL returned error:500  解决：生成密钥并部署密钥
 
 
 11. 访问有三种方式1.ssh 2.https 3.http 
@@ -73,5 +74,10 @@
 17. git remote show  origin  查看远程origin
 18. 修改远程目录名称  git  remote  rename  origin   oldname  newname
 19. Recv failture: Connnection was reset  （原因：没有连上网络）
+20. rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01  进行配置git config --global http.sslVerify false
+21. fatal: The remote end hung up unexpectedly
+22. coding.net不允许上传超过20M的单个文件
+
+
 
 
