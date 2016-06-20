@@ -63,6 +63,8 @@
 9. fatal:Could not read from remote repository
 10. bitbucket.org/coding.net  push不上去大的项目,但是github可以
 11. fatal: unable to access '':the requested URL returned error:500  解决：生成密钥并部署密钥
+12.  hint:updates were rejected because  a pushed  branch tip is behind its remote.hint:counterpart. check out this branch and integrate the remote change
+hint:<e.g git pull....> before pushing again.see the  Note  about fast-forwards in 'git push--help ' for details  解决方案：一般是branch选择错误。
 
 
 11. 访问有三种方式1.ssh 2.https 3.http 
