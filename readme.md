@@ -19,7 +19,7 @@
 12. git init
 13. git add .
 14. git commit -m "remark"
-15. git remote add origin https://bitbucket.org/shumaojie/IssueSummary.git
+15. git remote add origin https://bitbucket.org/shumaojie/**(仓库名).git
 
 
 ###重点说明###
@@ -79,6 +79,9 @@ hint:<e.g git pull....> before pushing again.see the  Note  about fast-forwards 
 20. rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01  进行配置git config --global http.sslVerify false
 21. fatal: The remote end hung up unexpectedly
 22. coding.net不允许上传超过20M的单个文件
+23.  fatal: unable to access 'https://github.com/shumaojie/****.git'：/Unkown  
+     SSL protocal error in connection to github .com:443
+     进行配置git config --global http.sslVerify false
 
 
 
