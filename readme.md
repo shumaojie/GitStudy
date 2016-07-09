@@ -1,4 +1,8 @@
 #git 学习心得#
+##github的作用##
+ 1. github比bitbucket稳定，可以上传大文件
+ 2. github是一个免费的版本控制的网盘(上传大软件)
+ 3. github没有被公司屏蔽，没有别GFW屏蔽
 
 ##使用git bash设置ssh登录##
 ###步骤###
@@ -46,7 +50,7 @@
 
 ##利用git 返回到某个版本##
 ***可以根据日期来返回到某个版本***  
-1. git log 获取所有commit版本
+1. git log 获取所有commit版本 
 2. git reset --hard  commitno (获取前面6位)
 
 
