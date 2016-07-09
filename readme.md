@@ -50,6 +50,13 @@
 2. git reset --hard  commitno (获取前面6位)
 
 
+##本地已存在项目##
+1. 在网站上建立仓库
+2. 进入项目文件夹
+3. 执行git bash设置ssh登录中的步骤
+4. git push origin master
+
+
 ##FAQ##
 1. 配置密钥后,还是需要输入用户名问题
 2. 网站上一个公钥，是否所有电脑还共用一个私钥
@@ -85,10 +92,5 @@ hint:<e.g git pull....> before pushing again.see the  Note  about fast-forwards 
 
 
 
-##本地已存在项目##
-1. 在网站上建立仓库
-2. 进入项目文件夹
-3. 执行git bash设置ssh登录中的步骤
-4. git push origin master
 
 
