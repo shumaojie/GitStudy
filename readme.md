@@ -8,7 +8,7 @@
 4. 使用ssh登录:git config --global http.sslVerify false
 
 5. 启动ssh服务器:ssh-agent  bash
-6. 生产私钥和公钥:$ ssh-keygen -t rsa -C "yanjie.jw@163.com"
+6. 生产私钥和公钥:ssh-keygen -t rsa -C "yanjie.jw@163.com"
 7. 添加私钥到本地:ssh-add ～/.ssh/id_rsa
 8. 添加私钥是否已经添加:ssh-add -l
 9. 把公钥和私钥复制出来到当前目录下: cp -R ~/.ssh/*  .
