@@ -1,4 +1,8 @@
 #git 学习心得#
+##github的作用##
+ 1. github比bitbucket稳定，可以上传大文件
+ 2. github是一个免费的版本控制的网盘(上传大软件)
+ 3. github没有被公司屏蔽，没有别GFW屏蔽
 
 ##使用git bash设置ssh登录##
 ###步骤###
@@ -19,7 +23,7 @@
 12. git init
 13. git add .
 14. git commit -m "remark"
-15. git remote add origin https://bitbucket.org/shumaojie/IssueSummary.git
+15. git remote add origin https://bitbucket.org/shumaojie/**(仓库名).git
 
 
 ###重点说明###
@@ -46,8 +50,15 @@
 
 ##利用git 返回到某个版本##
 ***可以根据日期来返回到某个版本***  
-1. git log 获取所有commit版本
+1. git log 获取所有commit版本 
 2. git reset --hard  commitno (获取前面6位)
+
+
+##本地已存在项目##
+1. 在网站上建立仓库
+2. 进入项目文件夹
+3. 执行git bash设置ssh登录中的步骤
+4. git push origin master
 
 
 ##FAQ##
@@ -79,14 +90,15 @@ hint:<e.g git pull....> before pushing again.see the  Note  about fast-forwards 
 20. rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01  进行配置git config --global http.sslVerify false
 21. fatal: The remote end hung up unexpectedly
 22. coding.net不允许上传超过20M的单个文件
+<<<<<<< HEAD
 23. Identity added: /c/Users/yye/.ssh/id_rsa(/c/Users/yye/.ssh/id_rsa)
+=======
+23.  fatal: unable to access 'https://github.com/shumaojie/****.git'：/Unkown  
+     SSL protocal error in connection to github .com:443
+     进行配置git config --global http.sslVerify false
+>>>>>>> 7076d52f69c2b901a21f97af38844d10c893f32b
 
 
 
-##本地已存在项目##
-1. 在网站上建立仓库
-2. 进入项目文件夹
-3. 执行git bash设置ssh登录中的步骤
-4. git push origin master
 
 
